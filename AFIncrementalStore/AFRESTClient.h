@@ -27,6 +27,8 @@
 
 @protocol AFPaginator;
 
+static NSString *AFQueryByAppendingParameters(NSString *query, NSDictionary *parameters);
+
 /**
  `AFRESTClient` is a subclass of `AFHTTPClient` that implements the `AFIncrementalStoreHTTPClient` protocol in a way that follows the conventions of a RESTful web service.
  */
